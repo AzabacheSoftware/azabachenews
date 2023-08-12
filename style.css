@@ -1,0 +1,79 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap');
+
+
+body{
+background: #000;
+color: white;
+}
+h1{
+font-family: 'Roboto';
+}
+
+h2{
+font-family: sans-serif;
+}
+
+.more-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+.more-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para las imágenes y contenedores */
+.article-container {
+    text-align: center; /* Centra el contenido dentro del contenedor */
+    margin-bottom: 20px; /* Espacio entre los contenedores de artículos */
+}
+
+.image-container img {
+    max-width: 100%; /* Imagen ocupa el 100% del ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Estilos para el botón "More" */
+.more-button {
+    display: inline-block;
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.more-button:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el título animado */
+.neon-blink {
+    font-size: 3em; /* Tamaño de fuente */
+    color: #FABADA; /* Color verde neón */
+    text-align: center; /* Centrar el texto */
+    animation: blink-animation 1.5s infinite; /* Aplicar animación parpadeante */
+}
+
+/* Animación parpadeante */
+@keyframes blink-animation {
+    0%, 100% {
+        opacity: 1; /* Visible */
+    }
+    50% {
+        opacity: 0; /* Invisible */
+    }
+}
+
+h3{
+text-align: center;
+font-family: sans-serif;
+color: #FABADA;
+}
