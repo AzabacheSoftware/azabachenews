@@ -1,6 +1,5 @@
-require('dotenv').config(); // Carga las variables de entorno desde .env
 
-let key = process.env.NEWS_API_KEY;
+let key = "0861aea2ff124fb585242b9630fa0931";
 let country = "us";
 let url = `https://newsapi.org/v2/top-headlines?country=${country}&apiKey=${key}`;
 let showNews = document.getElementById("news");
